@@ -4,8 +4,18 @@
 
 ### 效果如下
 
+bug : -Error on line 17, column 5 of pubspec.yaml: A dependency may only have one source.     sdk: flutter     pub get failed (65) Process finished with exit code 65
 
-[LINK](https://user-gold-cdn.xitu.io/2018/7/26/164d5734a522be70?w=520&h=932&f=gif&s=2286225)
 
 
-![](https://user-gold-cdn.xitu.io/2018/7/26/164d5734a522be70?w=520&h=932&f=gif&s=2286225)
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  english_words: ^3.1.0
+  http: ^0.11.0
+  
+  
+  要对齐 
